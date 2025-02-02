@@ -30,3 +30,23 @@ for (let i = 0; i < addEventListener.length; i++) {
     sum+= orders[i];
 }
 console.log("Sum of Orders:", sum);
+
+
+//Task 3- Employee Performance Data
+
+// Employee Properties 
+let employee = {
+    name: "Jennifer",
+    role: "Manager",
+    performanceScore: 85,
+    isActive: true
+};
+
+//Employee performance increase 
+employee.performanceScore = 90
+
+//Promotion eligibility 
+employee.promotionEligible = true;
+
+console.log("Updated Employee", employee);
+
