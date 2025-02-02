@@ -67,3 +67,15 @@ console.log("Updated Feedback:", feedback);
 
 
 //Task 5-Inventory Details 
+
+//Inventory
+const inventory = [
+    itemName = "Mascara", 
+    stockCount = 500, 
+    price = 6,
+];
+
+//Calculated Total Value 
+calculateTotalValue = 500 * 6; 
+
+console.log("Updated Stock Value", inventory);
