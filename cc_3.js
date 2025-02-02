@@ -50,3 +50,20 @@ employee.promotionEligible = true;
 
 console.log("Updated Employee", employee);
 
+
+//Task 4- Customer Feedback Data
+
+// Feedback from customers 
+let feedback = [
+    {customerName: "Sam", feedbackText: "Quality was not up to par.", rating: 3},
+    {customerName: "Helen", feedbackText: "Great customer service.", rating: 5},
+    {customerName: "Judy", feedbackText: "Will be returning.", rating: 4},
+];
+
+//New customer feedback added 
+feedback.push({customerName: "Sheera", feedbackText: "I love it here.", rating: 5});
+
+console.log("Updated Feedback:", feedback);
+
+
+//Task 5-Inventory Details 
